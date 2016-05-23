@@ -3,8 +3,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.project.faculty.nestedrecyclerviewtest25012016.NestedRecyclerViewActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/animate_avatar_fade_in_flip"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Avatar Fade And Flip,Slide In"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/slide_left_to_right"
+        android:orderInCategory="100"
+        android:title="Slide Left To Right"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/slide_bottom_to_top"
+        android:orderInCategory="100"
+        android:title="Slide Bottom To Top"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/alpha_fade_slide_in"
+        android:orderInCategory="100"
+        android:title="Alpha Fade And Slide In"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/reverse_scatter"
+        android:orderInCategory="100"
+        android:title="Reverse Scatter"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/flip"
+        android:orderInCategory="100"
+        android:title="Flip The Item"
         app:showAsAction="never" />
 </menu>
